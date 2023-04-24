@@ -1,0 +1,79 @@
+.box {
+  padding: 10px;
+  margin: 20px 10px;
+
+  .grid {
+    display: flex;
+    padding: 0 10px;
+  }
+
+  .bio {
+    background-color: #363331;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    padding: 0 10px !important;
+    overflow: hidden;
+  }
+
+  .learnImg {
+    width: 370px;
+    height: 220px;
+    margin: 10px;
+  }
+
+  .profileImg {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+  }
+
+  .skills span,
+  .aboutMe p {
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+
+  .aboutMe h4,
+  .aboutMe p {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .certifications,
+  .learnings,
+  .awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+img {
+  border: 5px solid #333;
+}
+
+.tech {
+  img {
+    border: none;
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  display: flex;
+  justify-content: center;
+
+  // .reactImg {
+  //   animation: tech infinite 20s linear;
+  // }
+}
