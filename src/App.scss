@@ -63,6 +63,22 @@ img {
   border: 5px solid #333;
 }
 
+.profileLink{
+  display: flex;
+  align-items: center;
+  a{
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.logoImg{
+  width: 50px;
+  height: 50px;
+  padding: 0 10px;
+  border: none;
+}
+
 .tech {
   img {
     border: none;

@@ -49,6 +49,12 @@ import award1 from './assets/award1.jpeg'
 import react from './assets/react.svg'
 import vite from './assets/vite.png'
 
+import hackerrank from './assets/hackerrank_logo.png'
+import hackerearth from './assets/hacker.jpg'
+import linkedin from './assets/linkedin5.png'
+import twitter from './assets/twitter.png'
+import github from './assets/github7.png'
+
 const tech = [
   react,
   vite
@@ -187,11 +193,11 @@ function App() {
               })}
               <span>Material UI</span>
               <div className='profiles'>
-                <h2><a href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
-                <h2><a href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
-                <h2><a href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
-                <h2><a href='https://github.com/devraja22/'>Github</a></h2>
-                <h2><a href='https://twitter.com/devraja22/'>Twitter</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerrank} alt={hackerrank}/><a href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerearth} alt={hackerearth}/><a href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={linkedin} alt={linkedin}/><a href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={github} alt={github}/><a href='https://github.com/devraja22/'>Github</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={twitter} alt={twitter}/><a href='https://twitter.com/devraja22/'>Twitter</a></h2>
               </div>
             </div>
           </Grid>
