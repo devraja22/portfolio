@@ -196,7 +196,7 @@ function App() {
             <div>
               <h2>Raja Kumar M</h2>
               <h2>Full Stack Web Developer</h2>
-              <h2>MEAN | MERN | <span className='mern'>MEVN</span></h2>
+              <h2>MEAN | MERN </h2>
               <h2>4 years of Experience</h2>
             </div>
           </Grid>
@@ -211,7 +211,8 @@ function App() {
             <div className='aboutMe'>
               <h2>About Me</h2>
               <h4>
-                <p>Hands on experience in full stack development.Worked on both MEAN & MERN stack technologies.
+                <p>Hands on experience in full stack development. 
+                  Worked on both MEAN & MERN stack technologies.
                   Passionate in debugging and finding solutions.
                   Ability to plan and organize the team effort.
                   Capacity to motivate, lead and boost morale of the team.
@@ -221,8 +222,8 @@ function App() {
               <h4>
                 <p>
                   Followed Agile practices while working on the projects.
-                  Always try to fix the issues by myself.
-                  Struggled sometimes while working on Angular & React projects and learnt to debugging it.
+                  Worked collaboratively with the team in finding the solutions.
+                  Faced lots of challenges while working on Angular & React projects and learnt to debugging it.
                 </p>
               </h4>
               <br />
@@ -230,7 +231,7 @@ function App() {
                 <p>
                   Worked as Technology Trainer.
                   Trained and mentored thousands of graduates in both the MEAN and MERN stack technologies.
-                  As a trainer, took technical sessions, written test cases for the assessments and validated it.
+                  As a trainer, took technical sessions, handled assessments and validated it.
                   Faced lot of struggles in handing the students and learnt a lot by guided them for fixing the multiple issues.
                 </p>
               </h4>
