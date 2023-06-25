@@ -71,6 +71,15 @@ import css10 from './assets/learnings/css/css10.png'
 import css11 from './assets/learnings/css/css11.png'
 import css12 from './assets/learnings/css/css12.png'
 
+import angular5 from './assets/learnings/angular/angular1.png'
+import angular6 from './assets/learnings/angular/angular2.png'
+import angular7 from './assets/learnings/angular/angular3.png'
+import angular8 from './assets/learnings/angular/angular4.png'
+import angular9 from './assets/learnings/angular/angular5.png'
+import angular10 from './assets/learnings/angular/angular6.png'
+import angular11 from './assets/learnings/angular/angular7.png'
+import angular12 from './assets/learnings/angular/angular8.png'
+
 import profile from './assets/raja.jpg'
 import award1 from './assets/award1.jpeg'
 import react from './assets/react.svg'
@@ -158,6 +167,14 @@ const learnings = [
   css10,
   css11,
   css12,
+  angular5,
+  angular6,
+  angular7,
+  angular8,
+  angular9,
+  angular10,
+  angular11,
+  angular12,
 ]
 
 const skills = ['HTML', 'CSS', 'JavaScript', 'TypeScript',
@@ -246,11 +263,11 @@ function App() {
               })}
               <span>Material UI</span>
               <div className='profiles'>
-                <h2 className='profileLink'><img className='logoImg' src={hackerrank} alt={hackerrank} /><a href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={hackerearth} alt={hackerearth} /><a href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={linkedin} alt={linkedin} /><a href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={github} alt={github} /><a href='https://github.com/devraja22/'>Github</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={twitter} alt={twitter} /><a href='https://twitter.com/devraja22/'>Twitter</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerrank} alt={hackerrank} /><a target='_blank' href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerearth} alt={hackerearth} /><a target='_blank' href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={linkedin} alt={linkedin} /><a target='_blank' href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={github} alt={github} /><a target='_blank' href='https://github.com/devraja22/'>Github</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={twitter} alt={twitter} /><a target='_blank' href='https://twitter.com/devraja22/'>Twitter</a></h2>
               </div>
             </div>
           </Grid>
