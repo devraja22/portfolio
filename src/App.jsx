@@ -44,6 +44,33 @@ import react10 from './assets/learnings/linkedin1/react10.png'
 import react11 from './assets/learnings/linkedin1/react1.png'
 import react12 from './assets/learnings/linkedin1/react2.png'
 
+import html1 from './assets/learnings/html/html1.png'
+import html2 from './assets/learnings/html/html2.png'
+import html3 from './assets/learnings/html/html3.png'
+import html4 from './assets/learnings/html/html4.png'
+import html5 from './assets/learnings/html/html5.png'
+import html6 from './assets/learnings/html/html6.png'
+import html7 from './assets/learnings/html/html7.png'
+import html8 from './assets/learnings/html/html8.png'
+import html9 from './assets/learnings/html/html9.png'
+import html10 from './assets/learnings/html/html10.png'
+import html11 from './assets/learnings/html/html11.png'
+import html12 from './assets/learnings/html/html12.png'
+import typescript from './assets/learnings/linkedin1/typescript.png'
+
+import css1 from './assets/learnings/css/css1.png'
+import css2 from './assets/learnings/css/css2.png'
+import css3 from './assets/learnings/css/css3.png'
+import css4 from './assets/learnings/css/css4.png'
+import css5 from './assets/learnings/css/css5.png'
+import css6 from './assets/learnings/css/css6.png'
+import css7 from './assets/learnings/css/css7.png'
+import css8 from './assets/learnings/css/css8.png'
+import css9 from './assets/learnings/css/css9.png'
+import css10 from './assets/learnings/css/css10.png'
+import css11 from './assets/learnings/css/css11.png'
+import css12 from './assets/learnings/css/css12.png'
+
 import profile from './assets/raja.jpg'
 import award1 from './assets/award1.jpeg'
 import react from './assets/react.svg'
@@ -106,6 +133,31 @@ const learnings = [
   nodejs2,
   react1,
   solid,
+  html1,
+  html2,
+  html3,
+  html4,
+  html5,
+  html6,
+  html7,
+  html8,
+  html9,
+  html10,
+  html11,
+  html12,
+  typescript,
+  css1,
+  css2,
+  css3,
+  css4,
+  css5,
+  css6,
+  css7,
+  css8,
+  css9,
+  css10,
+  css11,
+  css12,
 ]
 
 const skills = ['HTML', 'CSS', 'JavaScript', 'TypeScript',
@@ -122,8 +174,8 @@ function App() {
       <div id='stars3'></div>
       <Box className='box' sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid xs={2}></Grid>
-          <Grid className='grid bio' item xs={5}>
+          <Grid lg={2} md={2} sm={12}></Grid>
+          <Grid className='grid bio' item lg={5} md={12} sm={12}>
             <div>
               <h2>Raja Kumar M</h2>
               <h2>Full Stack Web Developer</h2>
@@ -131,14 +183,14 @@ function App() {
               <h2>4 years of Experience</h2>
             </div>
           </Grid>
-          <Grid className='grid' item xs={4}>
+          <Grid className='grid' item lg={4} md={12} sm={12} >
             <div>
               <img className='profileImg' src={profile} alt={profile}></img>
             </div>
           </Grid>
-          <Grid xs={1}></Grid>
-          <Grid xs={2}></Grid>
-          <Grid className='grid' item xs={5}>
+          <Grid lg={1} sm={12} md={12}></Grid>
+          <Grid lg={2} sm={12} md={12}></Grid>
+          <Grid className='grid' item lg={5} sm={12} md={12}>
             <div className='aboutMe'>
               <h2>About Me</h2>
               <h4>
@@ -153,7 +205,7 @@ function App() {
                 <p>
                   Followed Agile practices while working on the projects.
                   Always try to fix the issues by myself.
-                  Struggled sometimes while working on Angular projects and learnt to debugging it.
+                  Struggled sometimes while working on Angular & React projects and learnt to debugging it.
                 </p>
               </h4>
               <br />
@@ -182,10 +234,11 @@ function App() {
               <br />
               <h4>
                 <p>NCC 'C' Certificate Holder</p>
+                <p>ASPL - Assistant School Pupil Leader ( 2014 )</p>
               </h4>
             </div>
           </Grid>
-          <Grid className='grid' item xs={4}>
+          <Grid className='grid' item lg={4} sm={12} md={12}>
             <div className='skills'>
               <h2>Skills</h2>
               {skills.map((skill, i) => {
@@ -193,16 +246,16 @@ function App() {
               })}
               <span>Material UI</span>
               <div className='profiles'>
-                <h2 className='profileLink'><img className='logoImg' src={hackerrank} alt={hackerrank}/><a href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={hackerearth} alt={hackerearth}/><a href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={linkedin} alt={linkedin}/><a href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={github} alt={github}/><a href='https://github.com/devraja22/'>Github</a></h2>
-                <h2 className='profileLink'><img className='logoImg' src={twitter} alt={twitter}/><a href='https://twitter.com/devraja22/'>Twitter</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerrank} alt={hackerrank} /><a href='https://www.hackerrank.com/devraja22'>Hackerrank</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={hackerearth} alt={hackerearth} /><a href='https://www.hackerearth.com/@devraja22'>Hackerearth</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={linkedin} alt={linkedin} /><a href='https://www.linkedin.com/in/devraja22/'>LinkedIn</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={github} alt={github} /><a href='https://github.com/devraja22/'>Github</a></h2>
+                <h2 className='profileLink'><img className='logoImg' src={twitter} alt={twitter} /><a href='https://twitter.com/devraja22/'>Twitter</a></h2>
               </div>
             </div>
           </Grid>
-          <Grid xs={1}></Grid>
-          <Grid item xs={12}>
+          <Grid item lg={1} sm={12} md={12}></Grid>
+          <Grid item lg={12} sm={12} md={12}>
             <h1>Awards</h1>
             <div className='awards'>
               {awards.map((item, index) => {
@@ -212,7 +265,7 @@ function App() {
               })}
             </div>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item lg={12} sm={12} md={12}>
             <h1>Certifications</h1>
             <div className='certifications'>
               {certifications.map((item, index) => {
@@ -222,7 +275,7 @@ function App() {
               })}
             </div>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item lg={12} sm={12} md={12}>
             <h1>Learnings</h1>
             <div className='learnings'>
               {learnings.map((item, index) => {
@@ -232,8 +285,8 @@ function App() {
               })}
             </div>
           </Grid>
-          <Grid item xs={12}>
-            <h1>Built by</h1>
+          <Grid item lg={12}>
+            <h1>Built using</h1>
             <div className='tech'>
               {tech.map((item, index) => {
                 return (
