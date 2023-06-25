@@ -221,9 +221,9 @@ function App() {
               <br />
               <h4>
                 <p>
-                  Followed Agile practices while working on the projects.
-                  Worked collaboratively with the team in finding the solutions.
-                  Faced lots of challenges while working on Angular & React projects and learnt to debugging it.
+                  Worked on the projects while adhering to agile principles.
+                  In order to develop solutions, I worked collaboratively with the team.
+                  While working on Angular and React projects, I encountered numerous issues and learned how to debug them.
                 </p>
               </h4>
               <br />
@@ -232,7 +232,7 @@ function App() {
                   Worked as Technology Trainer.
                   Trained and mentored thousands of graduates in both the MEAN and MERN stack technologies.
                   As a trainer, took technical sessions, handled assessments and validated it.
-                  Faced lot of struggles in handing the students and learnt a lot by guided them for fixing the multiple issues.
+                  Faced several difficulties when managing the students, and gained a lot of knowledge by assisting them in resolving various problems.
                 </p>
               </h4>
               <br />
